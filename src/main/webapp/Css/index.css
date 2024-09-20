@@ -1,0 +1,136 @@
+
+.custom-btn-1{
+	background-color: #0e4095;
+    color: #fff;
+	color: #fff;
+    border-radius: 5px;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #0e4095;
+    font-family: "open_sanssemibold";
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.custom-btn-2 {
+	background-color: #ea5906 ;
+	color: #fff;
+    border-radius: 5px;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #0e4095;
+    font-family: "open_sanssemibold";
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.custom-btn-1:hover{
+	background-color: #4faf31;
+	color:white;
+}
+
+.custom-btn-2:hover{
+	background-color: white;
+	color:#ea5906;
+}
+
+.welcome-sec{
+    padding: 90px 90px ;
+}
+
+.inner-container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.oswald-text{
+	font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-lg {
+    font-size: 22px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.grey-bg {
+    background: #f4f5f9;
+}
+/*.st-current {
+    outline: rgb(108, 99, 255) solid 1px !important;
+}*/
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.opinion-sec {
+    padding: 20px 0 20px 100px;
+}
+
+.sec-hd {
+    font-size: 42px;
+    color: #0e4095;
+    font-family: "open_sansextrabold";
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+
+.theme-btn {
+    background-color: #ea5906;
+    border-radius: 5px;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #0e4095;
+    font-family: "open_sanssemibold";
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.theme-btn:hover{
+	background-color: white;
+	color: #ea5906;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
